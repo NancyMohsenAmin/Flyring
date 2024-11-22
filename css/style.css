@@ -1,0 +1,167 @@
+/* color palette : #3c6e71  اخضر
+#284b63   سماوي  #d9d9d9  رمادي 
+#ee6c4d  برتقالي*/
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@299&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=El+Messiri&family=Lemonada:wght@322&display=swap');
+body{background-color:#d9d9d970 ;
+    font-family: "Changa", sans-serif;}
+.navbar{background-color: #d9d9d998;}
+.sec{padding-right: 10px;
+color:#ee6c4d ;}
+.drbtn,.btncard,.opbtn{ width: 110px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+color: white;
+transition: 1s; }
+.opbtn{border: 1px solid #3d5a80;}
+.opbtn:hover{transform: scale(1.1);
+background-color:#3d5a8060 ;}
+.dropdown-item{color: #ee6c4d;}
+.seabtn:hover{opacity: 0.7}
+.imaged{margin: 0px 16px ;}
+.forsear{margin-right: 10px;}
+.fixed-top{z-index: 980;}
+.modal-backdrop{ --bs-backdrop-zindex: 1000 !important;}
+.colormod,.drbtn,.colbtn{background-color:#284b63 ;}
+.carousel-item img{height: 100vh;}
+.carousel-caption{ background-color: #98c1d990;
+color:black ;}
+.infotitle,.btnac , .popul-title,.card3title{ background: -webkit-linear-gradient(top,#ee6c4d ,black );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
+.lastsec-title {background: -webkit-linear-gradient(top,#ee6c4d ,white );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}   
+.info-parent{border-radius: 0px 0px 6px 6px;}
+.info-content{padding:30px 40px;}
+.info-p{padding: 10px 0px;}
+.btnac{box-shadow:1px 1px 17px 2px rgb(135, 134, 134) ;
+font-weight: bold;}
+.accordion-button:focus{ background-color:white; 
+    box-shadow:1px 1px 17px 2px rgb(135, 134, 134) ;}
+.accordion-item{border-radius: 10px;}
+.icon-curs{font-size: 35px;
+color:#ee6c4d;}
+.carousel-control-next, .carousel-control-prev{opacity: 0.7;}
+.popandtool,.popandtool2,.popandtool3,.popand3tool2,.pop2andtool2,.popand2tool2{background-color: #d9d9d9;
+    width: 100px;
+    height: 40px;
+    border-radius: 1px  8px; 
+margin: -18px 0px 5px 111px;
+ display: none;}
+.populplace{
+    width: 100%;
+    height: 40vh;
+    background: url(../images/ticket.jpg) no-repeat ;
+background-size: cover;
+background-attachment: fixed; }
+    .continarfirs{width: 93%;
+        margin: auto;}
+    .imag-card{width: 95%;
+    height: 370px;
+margin:auto ;}
+.btnlink{margin-right: -8px;}
+.cardaft::after{  position: absolute;
+    content: "";
+    width: 0;
+    height: 0 ; 
+    opacity: 0;
+    top:0;
+    left:0;
+    background-color:#284b63 ;}
+.cardaft:hover::after{opacity: 0.5;
+        width: 100%;
+        height: 100%;
+        transition: 1s ;}
+        .cardaft::before{  position: absolute;
+            content: "";
+            width: 0;
+            height: 0 ; 
+            opacity: 0;
+            bottom:0;
+            right:0;
+            background-color:#3c6e71 ; }
+            .cardaft:hover::before{opacity: 0.5;
+                width: 100%;
+                height: 100%;
+                transition: 1s ;}
+.div-bagr{background: url(../images/madina.jpg) no-repeat;
+    background-attachment: fixed;}
+.card-bag1{margin-left: 90px;
+margin-right:220px ;}
+.cardpic{width: 340px;
+height: 400px;
+transition:0.9s ; }
+.cardpic:hover{transform: scale(0.89);}
+.card-img-overlay{position: absolute;
+    width: 100% ;
+    height: 100%;
+    background-color: #284b6380 ; }
+    .card-img-overlay:hover{background-color: #3c6e7180;}
+    .imgcard{margin-top: 160px;}
+    .card-title2{font-weight: 200;}
+    .card-title{font-weight: 300;}
+    .containar-sec{width: 90%;
+        margin: auto;
+position: relative;}
+ .parentcard2{gap: 39px;
+        width: 100%;
+    margin-bottom: 60px;}
+    .containimag,.containimag2{ position: relative;
+        right: -1px;
+    height: 350px;
+    width: 370px;
+    clip-path: polygon(19% 0, 100% 0, 100% 100%, 30% 100%);}
+.shadcard{box-shadow: 0.9px 0.9px 14px 2px #3c6e7180;}
+.imagediv{ width: 100%;
+    height: 100%;
+right: -1px;}
+.righcardpath{height: 100%;}
+.righcardpath{transition:all 0.8s ease;}
+.cartfont,.card3title{font-family: "El Messiri", sans-serif;}
+.div-lines,.div-lines2{width: 85px;
+    height: 4px;
+    background-color: #3c6e71;
+transition: 0.8s;}
+    .cartfont:hover .div-lines{width: 130px;}
+    .cartfont:hover .containimag img{transform: scale(1.09);}
+    .cardbtn{font-size: 13px;}
+    .hoverbtn:hover{background-color: #3c6e71;}
+    .containimag2{left: -1px;
+        clip-path: polygon(0 0, 83% 0, 74% 100%, 0% 100%);}
+        .div-lines2{background-color: #284b63;}
+        .btncard{background-color: #3c6e71;}
+    .hoverbtn2:hover{background-color: #ee6c4d;}
+    .cartfont:hover .div-lines2{width: 130px;}
+    .cartfont:hover .containimag2 img{transform: scale(1.09);}
+    .card-marle{margin-left: -20px;}
+    .icon1{width: 250px;
+    height: 170px;
+box-shadow: 2px 2px 20px 4px #3c6e71;}
+.div-circle{box-shadow: 0.6px 0.6px 10px 2px #ee6c4d;}
+.socialtext1{margin-bottom: -5px;}
+.socialimag{margin-left:85px;
+    filter: drop-shadow(3px 3px 9px  #284b63);}
+.img2{margin-bottom: -15px;
+    margin-left:70px;}
+    .lastsec-div{padding-top: 4px;
+    width: 440px;}
+    .lastsec-line{color: white;}
+    @media (max-width:576px){
+        .containimag,.containimag2{clip-path:none;
+        width: 100%;}
+        .card-marle{margin-left: 5px;}
+        .cartfont:hover .containimag img{transform: scale(1.02);}
+        .cartfont:hover .containimag2 img{transform: scale(1.02);}
+        .containimag{margin-left: -2px;}
+        .card-bag1{margin-left: -2px;}
+        .navbar{background-color: #d9d9d940;}
+   .cardbtn{display: none;}
+   .icon1{margin-bottom: 40px;}
+   .headbtn{margin-top: 10px;}
+   .lastsec-div{width: 100%;}
+   .iconright{margin-right: 25px;}
+  .text-ticet{font-size: 18px;}
+  .cont-ticet{height: 300px;}
+}
